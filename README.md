@@ -9,7 +9,7 @@ Run server and search for any port within server.py
 ```
 python server.py
 ```
-# Output
+Output:
 ```
 Server listening on port 6889...
 ```
