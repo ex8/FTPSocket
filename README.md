@@ -17,4 +17,4 @@ Now run client.py on the same port
 ```
 python client.py
 ```
-The file will be received by the server through a socket connection.
+The file will be received by the server through a socket connection. :-)
