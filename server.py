@@ -15,9 +15,8 @@ try:
         time = datetime.datetime.now()
         print 'New connection from IP:', ip, 'Date/time:', time
         data = client.recv(4096)
-        f = file('test_file_server.txt', 'w+')
+        with file('test_file_server.txt', 'w+') as f:
         f.write(data)
-        f.close()
         client.close()
 except KeyboardInterrupt as e:
     print e
